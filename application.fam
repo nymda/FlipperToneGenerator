@@ -1,11 +1,11 @@
 App(
-    appid="tonegen",
-    name="Tones",
+    appid="Tonegen",
+    name="Tone generator",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="tonegen_app",
     requires=["gui"],
     stack_size=2 * 1024,
     order = 30,
     fap_icon="tgico.png",
-    fap_category="Tools",
+    fap_category="Music",
 )

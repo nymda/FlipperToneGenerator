@@ -31,7 +31,7 @@ static void input_callback(InputEvent* input_event, void* ctx) {
     furi_message_queue_put(event_queue, input_event, FuriWaitForever);
 }
 
-int32_t hello_world_app(void* p) { 
+int32_t tonegen_app(void* p) { 
     UNUSED(p);
 
     InputEvent event;
