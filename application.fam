@@ -1,5 +1,5 @@
 App(
-    appid="Tonegen",
+    appid="tonegen",
     name="Tone generator",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="tonegen_app",
